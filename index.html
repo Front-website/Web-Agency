@@ -30,16 +30,20 @@
     -->
     <header class="header active">
       <div class="container">
-        <div class="overlay"></div>
+        <div class="overlay" data-overlay></div>
         <a href="#">
           <h1 class="logo">ICHTUS IT</h1>
         </a>
 
-        <nav class="navbar active">
+        <nav class="navbar" data-navbar>
           <div class="navbar-top">
             <a href="#" class="logo">ICHTUS IT</a>
 
-            <button class="nav-close-btn" aria-label="Close Menu">
+            <button
+              class="nav-close-btn"
+              aria-label="Close Menu"
+              data-nav-close-btn
+            >
               <ion-icon name="close-outline"></ion-icon>
             </button>
           </div>
@@ -72,7 +76,7 @@
           <span>Get A Quote</span>
         </a>
 
-        <button class="nav-open-btn" aria-label="Open Menu">
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
           <ion-icon name="menu-outline"></ion-icon>
         </button>
       </div>
