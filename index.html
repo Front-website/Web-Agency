@@ -28,7 +28,7 @@
     <!--
       -HEADER
     -->
-    <header class="header active">
+    <header class="header">
       <div class="container">
         <div class="overlay" data-overlay></div>
         <a href="#">
@@ -49,22 +49,26 @@
           </div>
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#home" class="navbar-link">Home</a>
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
             </li>
             <li class="navbar-item">
-              <a href="#about" class="navbar-link">About</a>
+              <a href="#about" class="navbar-link" data-navbar-link>About</a>
             </li>
             <li class="navbar-item">
-              <a href="#services" class="navbar-link">Services</a>
+              <a href="#services" class="navbar-link" data-navbar-link
+                >Services</a
+              >
             </li>
             <li class="navbar-item">
-              <a href="#features" class="navbar-link">Features</a>
+              <a href="#features" class="navbar-link" data-navbar-link
+                >Features</a
+              >
             </li>
             <li class="navbar-item">
-              <a href="#blog" class="navbar-link">Blog</a>
+              <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Contact Us</a>
+              <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -81,6 +85,56 @@
         </button>
       </div>
     </header>
+
+    <main>
+      <article>
+        <!--
+          - #HERO 
+        -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-substitle">
+                We are an IT services company located in northern France
+              </p>
+              <h2 class="h2 hero-title">
+                We develop digital solutions with passion and love.
+              </h2>
+              <p class="hero-text">
+                We are a team of dedicated professionals who are passionate
+                about what we do. With unwavering dedication and a genuine love
+                for our craft, we develop innovative and cutting-edge digital
+                solutions. Our commitment to excellence is fueled by our passion
+                for creating impactful and transformative technologies. We
+                approach each project with enthusiasm and pour our hearts into
+                every line of code, every design element, and every user
+                experience. It is this combination of passion and love that
+                drives us to deliver exceptional results and exceed our clients'
+                expectations. Together, we create digital solutions that not
+                only meet the needs of our clients but also make a positive
+                impact on the lives of the end-users. We believe that by
+                infusing our work with passion and love, we can truly make a
+                difference in the digital landscape
+              </p>
+
+              <button class="btn">Learn more</button>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="694"
+                height="529"
+                loading="lazy"
+                alt="hero-banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+          </div>
+        </section>
+      </article>
+    </main>
     <!--
         -ajout du script.js
     -->
